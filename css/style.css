@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.center{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-wrap{
+    flex-wrap: wrap;
+}
+
+.d-flex-colunm{
+    flex-direction: column;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* TITLES */
+.title{
+    text-align: center;
+    padding: 30px;
+}
+
+.title h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.title p{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.mainHome{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/* main */
+
+main{
+    min-height: 80vh;
+}
+
+section.banner{
+    padding: 190px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-image: url(''); */
+    background-size: 100% 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
+
+section.banner .banner_call{
+    
+    text-align: center;
+    color: #fff;
+    padding: 20px 20px;
+
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+section.banner .banner_call h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px 0 0;
+    margin-bottom: 15px;
+}
+
+section.banner .banner_call h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section.banner .banner_call p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+section.welcome{
+    padding: 15px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section.welcome .center .quartos_tipos{
+    padding: 1%;
+}
+
+section.welcome .center .quartos_tipos .card_quartos{
+    width: calc(33.33%);
+    padding: 10px;
+    margin: 8px auto;
+}
+
+section.welcome .center .quartos_tipos .card_quartos .img{
+    width: 100%;
+}
+
+section.welcome .center .quartos_tipos .card_quartos .img img{
+    width: 100%;
+}
+
+section.welcome .center .quartos_tipos .card_quartos .btn-card-quartos{
+    width: 100%;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 2px solid #49997C;
+}
+
+section.rota{
+    width: 100%;
+}
+
+section.rota .iframe iframe{
+    width: 100%;
+}
+
+section.sobre{
+    padding: 30px 0;
+}
+
+section.sobre .card_pousada .pousada_description{
+    width: 50%;
+    height: 170px;
+    align-items: center;
+    padding: 24px;
+}
+
+section.sobre .card_pousada .pousada_description .card-title{
+    width: 75%;
+}
+
+section.sobre .card_pousada .pousada_description .card-title h3{
+    margin-bottom: 24px;
+}
+
+section.sobre .card_pousada .pousada_description .card-title p{
+    margin-bottom: 12px;
+}
+
+section.sobre .card_pousada .pousada_description .card-img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section.sobre .card_pousada .pousada_description .card-img img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+/* footer */
+
+footer{
+    background: #49997C;
+}
+
+footer .center{
+    flex-direction: column;
+}
+
+footer .center .contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+    border-bottom: 2px solid #1d1d1d25;
+}
+
+footer .center .contatos .box_contatos{
+    display: flex;
+    align-items: flex-end;
+    flex: 2;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+footer .center .contatos .box_contatos a{
+    display: flex;
+    align-items: flex-end;
+}
+
+footer .center .contatos .box_contatos img{
+    height: 40px;
+    margin-right: 7px;
+}
+
+footer .center .contatos .box_contatos span{
+    display: flex;
+    align-items: flex-end;
+    font-size: 13px;
+}
+
+footer .center .copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+@media(max-width:768px){
+    .menu_desk{
+        display: none;
+    }
+    .btn_mobile{
+        display: block;
+    }
+    #menu_mobile{
+        display: block;
+    }
+    .nav_mobile{
+        display: none;
+    }
+    .contatos{
+        flex-direction: column;
+    }
+    .box_contatos{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    section.welcome{
+        padding: 0 10px;
+    }
+
+    section.welcome .center .quartos_tipos{
+        flex-direction: column;
+    }
+
+    section.welcome .center .quartos_tipos .card_quartos{
+        width: 50%;
+    }
+
+    section.sobre .card_pousada .pousada_description{
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media(max-width:520px){
+    .title{
+        font-size: 0.9rem;
+        padding: 35px 0 0;
+    }
+    section.welcome .center .quartos_tipos .card_quartos{
+        width: 75%;
+    }
+
+}
+
+@media(max-width:320px){
+    section.welcome .center .quartos_tipos .card_quartos{
+        width: 100%;
+    }
+
+    section.sobre .card_pousada .pousada_description{
+        flex-direction: column;
+    }
+
+    section.sobre .card_pousada .pousada_description .card-img{
+        width: 100%;
+    }
+    
+    section.sobre .card_pousada .pousada_description .card-img img{
+        width: 70%;
+        height: 100%;
+    }
+}

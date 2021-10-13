@@ -1,0 +1,29 @@
+main.mainQuartos{
+    padding-top: 70px;
+}
+section.testeString{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+section.testeString ul{
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+}
+.mainQuartos{
+    padding-top: 70px;
+    padding-left: 20px;
+    background: blueviolet;
+}
+.mainQuartos div{
+    width: 500px;
+    padding: 20px;
+
+    border-radius: 12px;
+    background: chartreuse;
+}
+.mainQuartos div h2{
+    margin-bottom: 12px;
+}

@@ -1,0 +1,38 @@
+{
+   "products":{ 
+        "name":"Máquinas de Solda",
+        "type":"elétrica/eletrodo",
+        "model":[
+            {
+                "name":"Titanium 140A",
+                "description":[
+                    {
+                        "jobFactor100": "100% - 100A",
+                        "jobFactor60": "60% - 140A",
+                        "jobFactor40": "40% - 160A"
+                    }
+                ]
+            },
+            {
+                "name":"Balmer 120A",
+                "description":[
+                    {
+                        "jobFactor100": "100% - 100A",
+                        "jobFactor60": "60% - 140A",
+                        "jobFactor40": "40% - 160A"
+                    }
+                ]
+            },
+            {
+                "name":"Esab 140A",
+                "description":[
+                    {
+                        "jobFactor100": "100% - 100A",
+                        "jobFactor60": "60% - 140A",
+                        "jobFactor40": "40% - 160A"
+                    }
+                ]
+            }
+        ]
+    }
+}

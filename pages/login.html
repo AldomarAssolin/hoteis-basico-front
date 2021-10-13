@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <title>Login</title>
+    <script src="https://use.fontawesome.com/2144521325.js"></script>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><a href="/index.html">Pousada <span class="span_logo">Secreta</span></a></div>
+            <nav class="menu_desk">
+                <ul>
+                    <li><a href="/index.html">inicio</a></li>
+                    <li><a href="/index.html#sobre">sobre</a></li>
+                    <li><a href="/index.html#rota">rota</a></li>
+                    <li><a href="/pages/quartos.html">quartos</a></li>
+                </ul>
+            </nav>
+            <span class="btn_users">
+                <a href="/pages/login.html">
+                    <i class="fa fa-user"></i>
+                    <!-- <img src="/assets/icones/user.png" alt="user"> -->
+                </a>
+            </span>
+            <span class="btn_mobile d-none"><img src="../assets/icones/bar.jfif" alt="icone menu mobile"></span>
+        </div>
+    </header>
+    <nav id="nav_mobile" class="d-none">
+        <ul id="menu_mobile">
+            <li><a id="inicio_menu" href="/index.html">inicio</a></li>
+            <li><a  id="sobre_menu" href="/index.html#sobre">sobre</a></li>
+            <li><a  id="rota_menu" href="/index.html#rota">rota</a></li>
+            <li><a  id="quartos_menu" href="/pages/quartos.html">quartos</a></li>
+        </ul>
+    </nav>
+    <main class="mainLogin">
+        <div class="form_login">
+            <form action="acao">
+                <h2>Login</h2>
+                <p>A Pousada Secreta aguarda por você!</p>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" required>
+                <div class="btn"><button>login</button></div>
+                <span id="btn_login">Não sou cadastrado!</span>
+            </form>
+        </div>
+        <div class="register">
+            <form action="acao">
+                <h2>Cadastre-se</h2>
+                <p>A Pousada Secreta aguarda por você!</p>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" id="lastname" required>
+                <label for="email">E-mail:</label>
+                <input type="email" name="registerEmail" id="registerEmail" required>
+                <label for="password">Senha:</label>
+                <input type="password" name="registerPassword" id="registerPassword" required>
+                <label for="checkPassword">Confirme sua senha:</label>
+                <input type="password" name="password" id="checkPassword" required>
+                <div class="btn"><button>registrar</button></div>
+                <span id="btn_register">Já sou cadastrado!</span>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <div class="contatos">
+                <div class="box_contatos">Entre em contato conosco:</div>
+                <div class="box_contatos">
+                    <a href="#"  target="_blank">
+                        <span>
+                            <img src="../assets/icones/endereco.png" alt="marcador">
+                            <address>Endereço Av. 123, 222 - Rio de Janeiro RJ</address>
+                        </span>
+                    </a>
+                </div>
+                <div class="box_contatos">
+                    <span>
+                        <img src="../assets/icones/telefone.png" alt="telefone">
+                        Cel: 55210000000
+                    </span>
+                </div>
+                <div class="box_contatos">
+                    <a href="https://www.booking.com"  target="_blank">
+                        <span>
+                            <img src="../assets/icones/calendario.png" alt="calendario">
+                            faça sua reserva pelo Booking.com
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="copy">
+                <span>&copy; Copyright - Pousada Secreta</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/login.js"></script>
+</body>
+</html>
