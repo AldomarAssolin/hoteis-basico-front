@@ -58,7 +58,17 @@ a{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#input{
+    text-align: center;
+    font-size: 2.3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
 
+    background: transparent;
+    border: none;
+}
 
 /* main */
 

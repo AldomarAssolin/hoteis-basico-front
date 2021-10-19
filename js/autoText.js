@@ -1,5 +1,5 @@
 let elInput = document.querySelector('#input')
-let words = ['Aldomar', 'Assolin', 'da', 'Silva']
+let words = ['Pousada', 'Secreta']
 let indexChar = 0
 let indexWords = 0
 let interval
