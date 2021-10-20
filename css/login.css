@@ -3,22 +3,19 @@
     font-family: 'Montserrat', sans-serif;
 } */
 main{
-    width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 80px 0 20px 0;
+
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+
     font-family: 'Montserrat', sans-serif;
+
     background-image: url('../assets/img-tarde.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    
-    /* background: #1FA2FF;
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); */
+    background-position: center;
 }
 .register{
     display: none;

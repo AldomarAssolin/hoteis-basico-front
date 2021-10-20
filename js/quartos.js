@@ -32,16 +32,16 @@ function slideCasal(){
 }
 function slideFamilia(){
     let slide = document.querySelector('#imgFamilia')
-    imagesCasal = new Array ("url('../assets/quarto-familia1.jpg')", "url('../assets/quarto-familia2.jpg')", "url('../assets/quarto-familia3.jpg')")
+    imagesFamilia = new Array ("url('../assets/quarto-familia1.jpg')", "url('../assets/quarto-familia2.jpg')", "url('../assets/quarto-familia3.jpg')")
     let indexImg = 0
     
     setInterval(() => {
         if(indexImg < images.length -1){
             indexImg++
-            slide.style.backgroundImage = imagesCasal[indexImg]
+            slide.style.backgroundImage = imagesFamilia[indexImg]
         }else{
             indexImg = 0
-            slide.style.backgroundImage = imagesCasal[indexImg]
+            slide.style.backgroundImage = imagesFamilia[indexImg]
         }
     }, 2000);
        

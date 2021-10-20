@@ -17,7 +17,7 @@ header{
 }
 
 .logo{
-    flex: 2;
+    flex: 3;
 }
 
 .logo a{
@@ -30,9 +30,17 @@ header{
 }
 
 nav.menu_desk{
-    flex: 8;
+    flex: 7;
     align-items: center;
     padding: 3px;
+}
+
+.btns{
+    flex: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
 }
 
 nav.menu_desk ul{
@@ -55,34 +63,6 @@ nav.menu_desk ul li a{
 
 nav.menu_desk ul li a:hover{
     color: #141414;
-}
-
-nav.menu_desk ul li details{
-    position: relative;
-    font-size: 17px;
-    color: #6a6a6a;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-nav.menu_desk ul li details ul{
-    flex-direction: column;
-    position: absolute;
-    left: 15px;
-
-    background: #1d1d1d;
-}
-
-nav.menu_desk ul li details ul li{
-    padding: 6px 4px;
-}
-
-nav.menu_desk ul li details ul li a.linkDetails{
-    color: #fff;
-}
-
-nav.menu_desk ul li details ul li a.linkDetails:hover{
-    color: #b9b8b8;
 }
 
 .btn_users{
@@ -132,16 +112,26 @@ nav.menu_desk ul li details ul li a.linkDetails:hover{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#menu_mobile li details{
-    color: #fff;
-    cursor: pointer;
-}
-
-#menu_mobile li details ul{
-    display: flex;
-    flex-direction: column;
-}
-#menu_mobile li details ul a{
-    padding: 4px 0;
-    border-top: 1px solid #4d4c4c;
+@media(max-width:768px){
+    header{
+        display: flex;
+        padding: 15px 0;
+    }
+    .logo{
+        padding-left: 12px;
+    }
+    .btns{
+        width: 50%;
+        margin-right: 30px;
+        justify-content: flex-end;
+    }
+    .menu_desk{
+        display: none;
+    }
+    .btn_mobile{
+        display: flex;
+    }
+    #menu_mobile{
+        display: block;
+    }
 }

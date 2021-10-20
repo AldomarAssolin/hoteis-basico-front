@@ -59,6 +59,7 @@ a{
 }
 
 #input{
+    width: 100%;
     text-align: center;
     font-size: 2.3rem;
     color: #fff;
@@ -77,12 +78,12 @@ main{
 }
 
 section.banner{
-    padding: 190px 40px;
+    height: 620px;
+    padding: 10% 1%;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* background-image: url(''); */
     background-size: 100% 100%;
     object-fit: fill;
     background-repeat: no-repeat;
@@ -255,21 +256,10 @@ footer .center .copy{
 }
 
 @media(max-width:768px){
-    .menu_desk{
-        display: none;
-    }
-    .btn_mobile{
-        display: block;
-    }
-    #menu_mobile{
-        display: block;
-    }
-    .nav_mobile{
-        display: none;
-    }
     .contatos{
         flex-direction: column;
     }
+
     .box_contatos{
         width: 100%;
         justify-content: flex-start;
@@ -284,7 +274,7 @@ footer .center .copy{
     }
 
     section.welcome .center .quartos_tipos .card_quartos{
-        width: 50%;
+        width: 90%;
     }
 
     section.sobre .card_pousada .pousada_description{
@@ -301,7 +291,7 @@ footer .center .copy{
         padding: 35px 0 0;
     }
     section.welcome .center .quartos_tipos .card_quartos{
-        width: 75%;
+        width: 100%;
     }
 
 }
